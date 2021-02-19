@@ -1,14 +1,27 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-  "description": "",
-  "main": "blockChain.js",
+  "description": "Basic Nodejs/MongoDB Implementation of BlockChain ",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "BlockChain"
+  ],
+  "author": "Islem Penywis",
+  "license": "MIT ",
   "dependencies": {
-    "object-hash": "^2.1.1"
-  }
+    "chalk": "^2.4.2",
+    "mongoose": "^5.11.17",
+    "object-hash": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipenywis/basic_blockchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ipenywis/basic_blockchain/issues"
+  },
+  "homepage": "https://github.com/ipenywis/basic_blockchain#readme"
 }
